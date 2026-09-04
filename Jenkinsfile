@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USERNAME = 'Atlantik4790'
+        DOCKERHUB_USERNAME = 'atlantik4790'
 
         BACKEND_IMAGE  = "${DOCKERHUB_USERNAME}/project-38-backend"
         FRONTEND_IMAGE = "${DOCKERHUB_USERNAME}/project-38-frontend"
